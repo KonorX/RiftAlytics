@@ -18,3 +18,10 @@ C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\ref
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlytics.pdb
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlytics.genruntimeconfig.cache
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\ref\RiftAlytics.dll
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlytics.csproj.AssemblyReference.cache
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\App.baml
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlytics.sourcelink.json
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlyt.2CC3095E.Up2Date
