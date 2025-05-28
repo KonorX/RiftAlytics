@@ -15,6 +15,8 @@
         Style="{StaticResource MaterialDesignWindow}"
         Background="Transparent"
         FontFamily="{DynamicResource MaterialDesignFont}"
+        WindowStyle="None"
+        ResizeMode="NoResize"
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
@@ -23,12 +25,12 @@
         </Grid.Background>
         <Button Content="Поиск" HorizontalAlignment="Left" Margin="565,295,0,0" VerticalAlignment="Top"  Background="{DynamicResource SakuraBlossom}" Click="Button_Click" BorderBrush="{DynamicResource SakuraBlossom}" FontSize="45" Height="66" Width="206" FontFamily="Trajan Pro"/>
         <TextBox HorizontalAlignment="Left" Margin="51,184,0,0" x:Name="InputText" TextWrapping="Wrap" Text="" Foreground="White" VerticalAlignment="Top" Width="270" CaretBrush="White" SelectionBrush="White" Background="#FFFFB7C5" FontSize="20" FontFamily="Trajan Pro" />
-        <Label Content="Введите имя призывается и регион&#xA;(например KonorX#RU1 и регион RU)" HorizontalAlignment="Left" Margin="51,120,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#FFFFB7C5" FontSize="20" Height="59" FontFamily="Trajan Pro"/>
+        <Label Content="Введите имя призывается и tag name&#xA;(например KonorX и RU1)" HorizontalAlignment="Left" Margin="51,120,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#FFFFB7C5" FontSize="20" Height="59" FontFamily="Trajan Pro"/>
         <Label Content="RiftAlytics" HorizontalAlignment="Left" FontSize="70" Foreground="White" Margin="30,10,0,0" VerticalAlignment="Top" FontFamily="/RiftAlytics;component/Fonts/TrajanPro-Bold"/>
-        <ComboBox HorizontalAlignment="Left" Margin="344,184,0,0" VerticalAlignment="Top" Width="133" Background="#FFFFB7C5" Foreground="#FF27A8A6" Height="33" SelectionChanged="ComboBox_SelectionChanged" FontWeight="Bold" FontSize="25" FontFamily="Trajan Pro">
-            <ComboBoxItem>RU</ComboBoxItem>
-            <ComboBoxItem>EUW</ComboBoxItem>
-        </ComboBox>
+
+        <Label x:Name="SummonerInfoLabel" Content="" HorizontalAlignment="Left" Margin="40,297,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Trajan Pro" Foreground="White" Width="292" Height="67" />
+        <Button x:Name="start" Visibility="Hidden"  Content="Начать" HorizontalAlignment="Left" Margin="364,304,0,0" VerticalAlignment="Top" FontSize="25" Foreground="White" BorderBrush="{DynamicResource SakuraBlossom}" Background="{DynamicResource SakuraBlossom}" Height="54" Width="134" Click="getName"/>
+        <TextBox x:Name="tagName" HorizontalAlignment="Left" Margin="346,184,0,0"  TextWrapping="Wrap" Text="" Foreground="White" VerticalAlignment="Top" Width="104" CaretBrush="White" SelectionBrush="White" Background="#FFFFB7C5" FontSize="20" FontFamily="Trajan Pro" />
 
 
     </Grid>

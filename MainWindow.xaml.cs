@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,31 +21,39 @@ namespace RiftAlytics
     public partial class MainWindow : Window
     {
 
-        public string regionSelected {  get; set; }
+        public string tag {  get; set; }
+        public string name { get; set; }
+        public SummonerData summoner { get; set; }
+        private readonly RiotApiClient riotApiClient= new RiotApiClient();
         public MainWindow()
         {
             InitializeComponent();
-            regionSelected = string.Empty;
-
+            tag = string.Empty;
+            name = string.Empty;
+            
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (!String.IsNullOrEmpty(InputText.Text))
+            
+            if (!String.IsNullOrEmpty(InputText.Text)&& !String.IsNullOrEmpty(tagName.Text))
             {
-                Output.Content = InputText.Text + $" {regionSelected}";
+                tag = tagName.Text;
+                name= InputText.Text;
+                var json = await riotApiClient.GetSummonerPuuidByNameAsync(name, tag);
+                summoner = await riotApiClient.GetSummonerInfoAsync(json, name, tag);
+                SummonerInfoLabel.Content = $" {summoner.FullName}\n Уровень профиля {summoner.Level.ToString()}";
             }
+            start.Visibility= Visibility.Visible;   
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ComboBox comboBox = (ComboBox) sender;
-            if (comboBox.SelectedItem is ComboBoxItem selected && ((ComboBoxItem)comboBox.SelectedItem).Content is not null)
-            {
+        
 
-                regionSelected = selected.Content.ToString();
-            }
-            else { Output.Content = "Region null"; }
+        private async void getName(object sender, RoutedEventArgs e)
+        {
+            
+            
+
         }
     }
 }
