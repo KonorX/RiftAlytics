@@ -15,6 +15,9 @@ namespace RiftAlytics
 
     public class MatchInfo
     {
+        public string GameMode {  get; set; }
+        public string MatchId { get; set; }
+        public bool IsWin   { get; set; }
         
     }
 }

@@ -9,9 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="book.png" />
     <None Remove="Fonts\TrajanPro-Bold.otf" />
     <None Remove="Pictures\sakura.png" />
     <None Remove="sakura.png" />
+    <None Remove="tree.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="book.png" />
     <Resource Include="Fonts\TrajanPro-Bold.otf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -27,6 +30,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="sakura.png" />
+    <Resource Include="tree.png" />
   </ItemGroup>
 
 </Project>

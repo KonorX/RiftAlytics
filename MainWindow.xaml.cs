@@ -51,8 +51,12 @@ namespace RiftAlytics
 
         private async void getName(object sender, RoutedEventArgs e)
         {
+            Profile profile = new Profile(summoner);
             
             
+            await profile.Refresh();
+            this.Hide();
+            profile.Show();
 
         }
     }

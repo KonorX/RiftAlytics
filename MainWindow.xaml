@@ -25,7 +25,7 @@
         </Grid.Background>
         <Button Content="Поиск" HorizontalAlignment="Left" Margin="565,295,0,0" VerticalAlignment="Top"  Background="{DynamicResource SakuraBlossom}" Click="Button_Click" BorderBrush="{DynamicResource SakuraBlossom}" FontSize="45" Height="66" Width="206" FontFamily="Trajan Pro"/>
         <TextBox HorizontalAlignment="Left" Margin="51,184,0,0" x:Name="InputText" TextWrapping="Wrap" Text="" Foreground="White" VerticalAlignment="Top" Width="270" CaretBrush="White" SelectionBrush="White" Background="#FFFFB7C5" FontSize="20" FontFamily="Trajan Pro" />
-        <Label Content="Введите имя призывается и tag name&#xA;(например KonorX и RU1)" HorizontalAlignment="Left" Margin="51,120,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#FFFFB7C5" FontSize="20" Height="59" FontFamily="Trajan Pro"/>
+        <Label Opacity="50" Content="Введите имя призывателя и тег" HorizontalAlignment="Left" Margin="51,147,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#FFFFB7C5" FontSize="20" Height="32" FontFamily="Trajan Pro"/>
         <Label Content="RiftAlytics" HorizontalAlignment="Left" FontSize="70" Foreground="White" Margin="30,10,0,0" VerticalAlignment="Top" FontFamily="/RiftAlytics;component/Fonts/TrajanPro-Bold"/>
 
         <Label x:Name="SummonerInfoLabel" Content="" HorizontalAlignment="Left" Margin="40,297,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Trajan Pro" Foreground="White" Width="292" Height="67" />

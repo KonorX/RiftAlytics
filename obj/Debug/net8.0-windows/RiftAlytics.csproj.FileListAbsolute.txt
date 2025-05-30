@@ -27,3 +27,6 @@ C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\Rif
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\RiftAlyt.2CC3095E.Up2Date
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\Profile.g.cs
 C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\Profile.baml
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\MatchProfile.g.cs
+C:\Users\rusla\source\repos\RiftAlytics\RiftAlytics\obj\Debug\net8.0-windows\MatchProfile.baml
