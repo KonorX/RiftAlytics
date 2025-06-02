@@ -26,9 +26,13 @@
             <ImageBrush ImageSource="/tree.png"/>
         </Grid.Background>
         <Button Content="Обновить" Background="{DynamicResource SakuraBlossom}" BorderBrush="{DynamicResource SakuraBlossom}" HorizontalAlignment="Left" Margin="719,42,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label Content="wr" x:Name="wr" FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="425,221,0,0" VerticalAlignment="Top"/>
-        <Label Content="info" x:Name="info"  FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="38,42,0,0" VerticalAlignment="Top" Height="174" Width="676"/>
-        <Label Content="Процент побед: " FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="38,221,0,0" VerticalAlignment="Top"/>
+        <Label Content="wr" Background="#80ffb7c5" x:Name="wr" FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="425,221,0,0" VerticalAlignment="Top"/>
+        <Label Content="info" x:Name="info"  FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="38,42,0,0" VerticalAlignment="Top" Height="174" Width="676">
+            <Label.Background>
+                <SolidColorBrush Color="#80ffb7c5"/>
+            </Label.Background>
+        </Label>
+        <Label Background="#80ffb7c5" Content="Процент побед: " FontSize="50" Foreground="White" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="38,221,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="MatchesList" d:ItemsSource="{Binding matchesInfo}" Margin="10,294,15,10" FontFamily="Trajan Pro" FontSize="30" Foreground="#E5FFFFFF" BorderBrush="#FFFF0B0B" SelectionChanged="MatchProfile">
             <ListBox.ItemTemplate>
                 <DataTemplate>

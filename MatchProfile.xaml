@@ -22,21 +22,21 @@
         <Grid.Background>
             <ImageBrush ImageSource="/book.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Label Content="Синяя команда" FontSize="35" Foreground="blue" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Красная команда" FontSize="35" Foreground="red" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="350,8,0,0" VerticalAlignment="Top"/>
-        <Label Content="1" x:Name="participant1" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="2" x:Name="participant2" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="3" x:Name="participant3" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="4" x:Name="participant4" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="5" x:Name="participant5" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="Синяя команда" FontSize="35" Foreground="blue" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Background="#80ffb7c5" Content="Красная команда" FontSize="35" Foreground="red" FontFamily="Trajan Pro" HorizontalAlignment="Left" Margin="350,8,0,0" VerticalAlignment="Top"/>
+        <Label Background="#80ffb7c5" Content="1" x:Name="participant1" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="2" x:Name="participant2" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="3" x:Name="participant3" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="4" x:Name="participant4" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="5" x:Name="participant5" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
 
 
-        <Label Content="7" x:Name="participant7" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="8" x:Name="participant8" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="9" x:Name="participant9" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="350,271,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="6" x:Name="participant6" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="350,65,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="10" x:Name="participant10" FontSize="25" FontFamily="Trajan Pro" Foreground="White" HorizontalAlignment="Left" Margin="350,334,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
-        <Label Content="info" x:Name="participant" HorizontalAlignment="Left" FontSize="25" FontFamily="Trajan Pro" Foreground="White" Margin="10,417,0,0" VerticalAlignment="Top" Height="218" Width="647"/>
+        <Label Background="#80ffb7c5" Content="7" x:Name="participant7" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="8" x:Name="participant8" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="9" x:Name="participant9" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="350,271,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="6" x:Name="participant6" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="350,65,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="10" x:Name="participant10" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" HorizontalAlignment="Left" Margin="350,334,0,0" VerticalAlignment="Top" Width="296" Height="66"/>
+        <Label Background="#80ffb7c5" Content="info" x:Name="participant" HorizontalAlignment="Left" FontSize="25" FontFamily="Trajan Pro" Foreground="Black" Margin="10,417,0,0" VerticalAlignment="Top" Height="218" Width="647"/>
 
     </Grid>
 </Window>

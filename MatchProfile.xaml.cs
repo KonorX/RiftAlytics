@@ -57,7 +57,7 @@ namespace RiftAlytics
             participant9.Content = labelsInfo[8];
             participant10.Content = labelsInfo[9];
             string kda=string.Empty;
-            if (customer.kda > 1.0 && customer.kda < 2.0) { kda = "Хорошо"; }
+            if (customer.kda >= 1.0 && customer.kda < 2.0) { kda = "Хорошо"; }
             else if (customer.kda < 1.0) { kda = "Так себе"; }
             else if (customer.kda > 2.0){ kda = "Просто великолепно"; }
             string vision=string.Empty;

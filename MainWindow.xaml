@@ -25,12 +25,13 @@
         </Grid.Background>
         <Button Content="Поиск" HorizontalAlignment="Left" Margin="565,295,0,0" VerticalAlignment="Top"  Background="{DynamicResource SakuraBlossom}" Click="Button_Click" BorderBrush="{DynamicResource SakuraBlossom}" FontSize="45" Height="66" Width="206" FontFamily="Trajan Pro"/>
         <TextBox HorizontalAlignment="Left" Margin="51,184,0,0" x:Name="InputText" TextWrapping="Wrap" Text="" Foreground="White" VerticalAlignment="Top" Width="270" CaretBrush="White" SelectionBrush="White" Background="#FFFFB7C5" FontSize="20" FontFamily="Trajan Pro" />
-        <Label Opacity="50" Content="Введите имя призывателя и тег" HorizontalAlignment="Left" Margin="51,147,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#FFFFB7C5" FontSize="20" Height="32" FontFamily="Trajan Pro"/>
-        <Label Content="RiftAlytics" HorizontalAlignment="Left" FontSize="70" Foreground="White" Margin="30,10,0,0" VerticalAlignment="Top" FontFamily="/RiftAlytics;component/Fonts/TrajanPro-Bold"/>
+        <Label  Content="Введите имя призывателя и тег" HorizontalAlignment="Left" Margin="51,147,0,0" x:Name="Output" VerticalAlignment="Top" Foreground="White" Background="#80ffb7c5" FontSize="20" Height="32" FontFamily="Trajan Pro"/>
+        <Label Background="#80ffb7c5" Content="RiftAlytics" HorizontalAlignment="Left" FontSize="70" Foreground="White" Margin="30,10,0,0" VerticalAlignment="Top" FontFamily="/RiftAlytics;component/Fonts/TrajanPro-Bold"/>
 
-        <Label x:Name="SummonerInfoLabel" Content="" HorizontalAlignment="Left" Margin="40,297,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Trajan Pro" Foreground="White" Width="292" Height="67" />
+        <Label x:Name="SummonerInfoLabel" Visibility="Hidden" Background="#80ffb7c5" Content="" HorizontalAlignment="Left" Margin="40,297,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Trajan Pro" Foreground="White" Width="292" Height="67" />
         <Button x:Name="start" Visibility="Hidden"  Content="Начать" HorizontalAlignment="Left" Margin="364,304,0,0" VerticalAlignment="Top" FontSize="25" Foreground="White" BorderBrush="{DynamicResource SakuraBlossom}" Background="{DynamicResource SakuraBlossom}" Height="54" Width="134" Click="getName"/>
         <TextBox x:Name="tagName" HorizontalAlignment="Left" Margin="346,184,0,0"  TextWrapping="Wrap" Text="" Foreground="White" VerticalAlignment="Top" Width="104" CaretBrush="White" SelectionBrush="White" Background="#FFFFB7C5" FontSize="20" FontFamily="Trajan Pro" />
+        <Button Content="История поиска" FontSize="19" Opacity="0.7" Foreground="White" BorderBrush="{DynamicResource SakuraBlossom}" Background="{DynamicResource SakuraBlossom}" HorizontalAlignment="Left" Margin="480,184,0,0" VerticalAlignment="Top" Width="188" Click="Button_Click_1"/>
 
 
     </Grid>

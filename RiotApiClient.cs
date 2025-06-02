@@ -12,7 +12,7 @@ namespace RiftAlytics
     public class RiotApiClient
     {
         private readonly HttpClient _httpClient;
-        private readonly string _apiKey= "RGAPI-1d11ee5b-b20b-45a3-968f-997f1aa3783f";
+        private readonly string _apiKey= "RGAPI-1abcbaf8-0e8f-4a84-9b66-7bd1745b9669";
         
         
         public RiotApiClient() {
@@ -82,7 +82,7 @@ namespace RiftAlytics
                     tempPlayer.deaths = participant.GetProperty("deaths").GetInt32();
                     tempPlayer.assists = participant.GetProperty("assists").GetInt32();
                     tempPlayer.championName = participant.GetProperty("championName").GetString();
-                    tempPlayer.role = participant.GetProperty("role").GetString();
+                    tempPlayer.role = participant.GetProperty("individualPosition").GetString();
                     tempPlayer.kda = participant.GetProperty("challenges").GetProperty("kda").GetDouble();
                     tempPlayer.stealthWards=participant.GetProperty("challenges").GetProperty("stealthWardsPlaced").GetInt32();
                     tempPlayer.controlWards = participant.GetProperty("challenges").GetProperty("controlWardsPlaced").GetInt32();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,23 @@ namespace RiftAlytics
         public string Puuid {  get; set; }
         public string FullName { get; set; }
         public long Level { get; set; }
+
+        public async Task addUserToDb(SummonerData summoner)
+        {
+            using (var context= new SQLiteDbContext())
+            {
+                context.Database.Migrate();
+                bool ifExistsInDb= await context.SummonerData.AnyAsync(u=> u.FullName == summoner.FullName);
+                if (!ifExistsInDb)
+                {
+                    
+                    context.SummonerData.Add(summoner);
+                    context.SaveChangesAsync();
+                }
+                
+                
+            }
+        }
     }
 
     public class MatchInfo
@@ -20,4 +38,6 @@ namespace RiftAlytics
         public bool IsWin   { get; set; }
         
     }
+
+
 }
