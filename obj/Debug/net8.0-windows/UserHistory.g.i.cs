@@ -64,7 +64,7 @@ namespace RiftAlytics {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RiftAlytics;V1.0.0.0;component/userhistory.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RiftAlytics;component/userhistory.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserHistory.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
