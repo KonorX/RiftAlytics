@@ -17,18 +17,18 @@
         ResizeMode="NoResize"
         Background="{DynamicResource PrimaryHueLightBrush}"
         
-        Title="UserHistory" Height="450" Width="800">
+        Title="UserHistory" Height="778" Width="898">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/scroll.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <ListBox x:Name="LastUsersList" d:ItemsSource="{Binding SummonerData}" FontFamily="Trajan Pro" FontSize="30" Foreground="#e5000000" SelectionChanged="Selection" >
+        <ListBox x:Name="LastUsersList" d:ItemsSource="{Binding SummonerData}" FontFamily="Trajan Pro" FontSize="37" Foreground="#e5000000" SelectionChanged="Selection" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal"  Background="{DynamicResource SakuraBack}" Margin="5"  >
                         <TextBlock Text="{Binding FullName}" />
-                        
-                       
+
+
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

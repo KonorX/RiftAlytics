@@ -144,7 +144,7 @@ namespace RiftAlytics {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RiftAlytics;component/matchprofile.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RiftAlytics;V1.0.0.0;component/matchprofile.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MatchProfile.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

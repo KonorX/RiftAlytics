@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RiftAlytics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c073f3c595dac9826cd648e684e10d16ec4f811")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a15d2605d60f5365feacfb50cde543924d6d68")]
 [assembly: System.Reflection.AssemblyProductAttribute("RiftAlytics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RiftAlytics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

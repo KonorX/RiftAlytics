@@ -32,15 +32,9 @@ namespace RiftAlytics
             name = string.Empty;
             using(var db = new SQLiteDbContext())
             {
-                //db.Database.EnsureDeleted();
+                
                 db.Database.EnsureCreated();
-                //db.SummonerData.Add(new SummonerData
-                //{
-                //    Puuid = "ZP3TP_QomqyjR1WbzahJganeuzdjoYK8GOYZ1qiRELHz5vSzFpE1NNLAMU8IIaIk5eMbM-W1XYjJrA",
-                //    FullName = "KonorX",
-                //    Level = 589
-                //});
-                //db.SaveChanges();
+                
             }
             
         }

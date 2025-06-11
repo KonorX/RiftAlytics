@@ -12,7 +12,7 @@ namespace RiftAlytics
     public class RiotApiClient
     {
         private readonly HttpClient _httpClient;
-        private readonly string _apiKey= "RGAPI-1abcbaf8-0e8f-4a84-9b66-7bd1745b9669";
+        private readonly string _apiKey= "RGAPI-b26cf9b0-c584-419c-b3e0-0887caf2ac34";
         
         
         public RiotApiClient() {
